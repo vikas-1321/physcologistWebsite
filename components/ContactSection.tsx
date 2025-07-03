@@ -75,11 +75,12 @@ export default function ContactSection() {
           </div>
 
           <button
-            type="submit"
-            className="w-full bg-darkMain1 text-white py-2 px-4 rounded hover:bg-darkMain2 transition"
-          >
-            Submit
-          </button>
+  type="submit"
+  className="w-full bg-darkMain1 text-black py-2 px-4 rounded border-2 border-[#325c5a] hover:bg-darkMain2 transition"
+>
+  Submit
+</button>
+
         </form>
 
         <p className="text-s text-gray-500 mt-4 text-center">
