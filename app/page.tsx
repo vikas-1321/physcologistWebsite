@@ -12,6 +12,7 @@ import FAQ from "@/components/FAQ";
 import Quote from "@/components/Quote";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Hero />
       <Experiance />
       <HowIHelp />
+      <Services />
       <Bookapp />
       <About />
       <Testimonianls />
