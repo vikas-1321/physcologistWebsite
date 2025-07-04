@@ -9,7 +9,7 @@ export default function Hero() {
           Christian Counseling Services in Richmond & Central Virginia
         </p>
 
-        <h2 className="text-4xl font-bold mb-4">
+        <h2 className="text-[#f6f6f6] text-4xl font-bold mb-4">
           Professional Counseling for Christian Healing and Growth
         </h2>
 
@@ -20,7 +20,18 @@ export default function Hero() {
 
         <p className="text-xl font-semibold italic mb-2">I want to work with you for…</p>
 
-        <p className="text-cyan-300 font-bold mb-2">✨ Greater Purpose in Your Life Direction</p>
+        <div className="relative h-10 w-full max-w-xl overflow-hidden flex justify-center text-center mx-auto">
+      <div className="absolute animate-quote-1 text-cyan-300 font-bold text-lg">
+        ✨ Greater Purpose in Your Life Direction
+      </div>
+      <div className="absolute animate-quote-2 text-cyan-300 font-bold text-lg">
+        🌿 Healing from Past Emotional Wounds
+      </div>
+      <div className="absolute animate-quote-3 text-cyan-300 font-bold text-lg">
+        💬 Building Stronger Communication in Relationships
+      </div>
+    </div>
+
 
         <div className="text-sm text-yellow-200 mb-6 space-x-2">
           <span>⭐ Top Rated</span>

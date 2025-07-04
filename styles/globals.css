@@ -11,3 +11,31 @@
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-8px); }
 }
+
+
+@layer utilities {
+  @keyframes quote-1 {
+    0%, 25% { opacity: 1; }
+    33%, 100% { opacity: 0; }
+  }
+  @keyframes quote-2 {
+    0%, 25% { opacity: 0; }
+    33%, 58% { opacity: 1; }
+    66%, 100% { opacity: 0; }
+  }
+  @keyframes quote-3 {
+    0%, 58% { opacity: 0; }
+    66%, 91% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  .animate-quote-1 {
+    animation: quote-1 9s infinite ease-in-out;
+  }
+  .animate-quote-2 {
+    animation: quote-2 9s infinite ease-in-out;
+  }
+  .animate-quote-3 {
+    animation: quote-3 9s infinite ease-in-out;
+  }
+}
