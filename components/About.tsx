@@ -44,13 +44,13 @@ export default function About() {
     <h3 className="text-black text-xl font-bold mb-6">Featured In</h3>
     <div className="flex flex-wrap justify-center items-center gap-6">
       <a href="https://www.psychologytoday.com/us/therapists/" target="_blank" rel="noopener">
-        <img src="/images/psychologytoday.webp" alt="Psychology Today" className="h-8" />
+        <img src="/images/psychologytoday.webp" alt="Psychology Today" className="h-8 transition-transform duration-300 transform hover:scale-110" />
       </a>
       <a href="https://www.theravive.com/therapists/" target="_blank" rel="noopener">
-        <img src="/images/theravive.webp" alt="Theravive" className="h-8" />
+        <img src="/images/theravive.webp" alt="Theravive" className="h-8 transition-transform duration-300 transform hover:scale-110" />
       </a>
       <a href="https://www.christiancounselordirectory.com/Therapist/" target="_blank" rel="noopener">
-        <img src="/images/christian-directory.webp" alt="Christian Directory" className="h-8" />
+        <img src="/images/christian-directory.webp" alt="Christian Directory" className="h-8 transition-transform duration-300 transform hover:scale-110" />
       </a>
       
     </div>
