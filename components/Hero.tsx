@@ -40,12 +40,19 @@ export default function Hero() {
           <span>• Media Mentions</span>
         </div>
 
-        <a
-          href="#"
-          className="inline-block bg-white text-blue-700 font-semibold px-6 py-3 rounded-full shadow-md hover:bg-gray-100 transition"
-        >
-          ✨ Start Healing Today
-        </a>
+        <div className="relative inline-block group">
+  {/* Glowing RGB Border */}
+  <div className="absolute inset-0 rounded-full p-[2px] bg-gradient-to-r from-pink-500 via-yellow-500 to-cyan-500 
+    bg-[length:300%_300%] animate-borderRotate opacity-80 group-hover:opacity-100 blur-sm z-0" />
+
+  {/* Actual Button */}
+  <a
+    href="#"
+    className="relative inline-block bg-white text-blue-700 font-semibold px-6 py-3 rounded-full shadow-md hover:bg-gray-100 transition z-10"
+  >
+    ✨ Start Healing Today
+  </a>
+</div>
       </div>
     </section>
   );
